@@ -12,6 +12,8 @@ public class Main {
         produto2.aplicarDesconto(5);
         produto2.adiconarAoEstoque(100);
         produto2.debitarDoEstoque(50);
+        produto2.alterarPreco(2);
+        produto2.alterarPreco(0.25);
 
 
     }

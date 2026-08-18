@@ -35,6 +35,15 @@ public class Produto {
         }
     }
 
+    public void alterarPreco(double novoValor){
+        if(novoValor <= 0){
+            System.out.println("Valor invalido");
+        } else {
+            preco = novoValor;
+            System.out.println("Valor atual atulizado, preço final de R$" + String.format("%.2f", preco));
+        }
+    }
+
     public String getNome() {
         return nome;
     }
